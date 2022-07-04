@@ -1,0 +1,103 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "name": "módulo de ventas",
+      "subModules": [
+        {
+          "id": 1,
+          "name": "Registro de nota de venta",
+          "to": "/"
+        },
+        {
+          "id": 2,
+          "name": "Reporte de ventas",
+          "to": "/"
+        },
+        {
+          "id": 3,
+          "name": "Ranking venta de productos",
+          "to": "/"
+        },
+        {
+          "id": 4,
+          "name": "Ranking ventas por cliente",
+          "to": "/"
+        },
+        {
+          "id": 5,
+          "name": "Registro de insidencias y obs.",
+          "to": "/"
+        },
+        {
+          "id": 6,
+          "name": "Registro de producto",
+          "to": "/productos/nuevo"
+        },
+        {
+          "id": 7,
+          "name": "Registro de cliente",
+          "to": "/clientes/registro-de-clientes"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "módulo de compras",
+      "subModules": [
+        {
+          "id": 1,
+          "name": "Compras para despacho",
+          "to": "/"
+        },
+        {
+          "id": 2,
+          "name": "Registro de proveedores",
+          "to": "/compras/registro-de-proveedores"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "módulo de almacen",
+      "subModules": [
+        {
+          "id": 1,
+          "name": "Movimientos de almacen",
+          "to": "/"
+        },
+        {
+          "id": 2,
+          "name": "Reporte existencia",
+          "to": "/"
+        },
+        {
+          "id": 3,
+          "name": "Reporte valorizado",
+          "to": "/"
+        },
+        {
+          "id": 4,
+          "name": "Organización de despacho",
+          "to": "/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "cartera de clientes",
+      "subModules": [
+        {
+          "id": 1,
+          "name": "Registro de asesor comercial",
+          "to": "/"
+        },
+        {
+          "id": 2,
+          "name": "Registro de insidencias y obs.",
+          "to": "/"
+        }
+      ]
+    }
+  ]
+}
